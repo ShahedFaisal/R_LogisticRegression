@@ -13,4 +13,4 @@ The Organics dataset contains information about customers' demographics and purc
 The R script demonstrates how to use logistic regression to predict whether a customer will buy a certain product based on their demographics and purchasing behavior. The script loads the Organics dataset and then performs data cleaning and preparation before fitting a logistic regression model and making predictions.
 
 ## Requirements
-To run the scripts, you will need to have R and the following R packages installed: `dyplr` and `caret`.
+To run these scripts, you will need to have R and the following R packages installed: `dyplr` and `caret`.
