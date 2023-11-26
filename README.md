@@ -14,11 +14,9 @@ This repository contains R code for predictive modeling using logistic regressio
 
 -   Create dummy variables for factor variables using the `caret` library.
 
--   Split the dataset into training and testing sets using the `caTools` library, with 60% of observations in the training set and 40% in the testing set.
+-   Split the dataset into training and testing sets (60% training and 40% testing) using the `caTools` library.
 
--   Perform logistic regression on the training set, apply stepwise regression using the `MASS` library and identify significant variables at a 10% significance level.
-
--   Report coefficients, p-values, and other summary characteristics of the logistic regression model.
+-   Perform logistic regression on the training set, apply stepwise regression using the `MASS` library, and identify significant variables at a 10% significance level.
 
 -   Predict CHD probabilities on both training and testing sets, convert probabilities to binary predictions, and calculate classification metrics such as hit rate, sensitivity, and specificity.
 
