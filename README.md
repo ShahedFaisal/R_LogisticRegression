@@ -4,7 +4,7 @@
 
 This repository contains R code for predictive modeling using logistic regression on a dataset named "HeartDisease.csv." The goal is to predict the likelihood of Chronic Heart Disease (CHD) in ten years ("TenYearCHD") based on various health-related factors. The code covers data preprocessing, logistic regression modeling, and model evaluation.
 
-## Code Summary
+## Key Steps
 
 -   Read the "HeartDisease.csv" dataset and perform initial checks, such as displaying the first 10 observations and exploring variable information.
 
