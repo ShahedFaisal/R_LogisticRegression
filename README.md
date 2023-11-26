@@ -12,15 +12,17 @@ This repository contains R code for predictive modeling using logistic regressio
 
 -   Calculate the probability and odds of having CHD in ten years based on the cleaned dataset.
 
--   Create dummy variables for factor variables, and split the dataset into training and testing sets, with 60% of observations in the training set and 40% in the testing set.
+-   Create dummy variables for factor variables using the `caret` library.
 
--   Perform logistic regression on the training set and identify significant variables at a 10% significance level.
+-   Split the dataset into training and testing sets using the `caTools` library, with 60% of observations in the training set and 40% in the testing set.
+
+-   Perform logistic regression on the training set, apply stepwise regression using the `MASS` library and identify significant variables at a 10% significance level.
 
 -   Report coefficients, p-values, and other summary characteristics of the logistic regression model.
 
 -   Predict CHD probabilities on both training and testing sets, convert probabilities to binary predictions, and calculate classification metrics such as hit rate, sensitivity, and specificity.
 
--   Plot the ROC curve for the test set and calculate the area under the ROC curve.
+-   Plot the ROC curve for the test set using the `pROC` library and calculate the area under the ROC curve.
 
 ## Note
 
